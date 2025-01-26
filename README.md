@@ -9,7 +9,7 @@ This is a toy implementation that is by no means cryptographically secure, but j
 ## Files
 * main.py: executes the program
 * ssss.py: contains the implementation of algorithmic logic behind Shamir's secret sharing scheme
-* prompt_inputs.py: functions for prompting users for relevant parameters for defining scheme and secret reconstruction 
+* prompt_inputs.py: functions for prompting users for relevant parameters for defining (t, n) scheme and secret reconstruction 
 * constants.py: establishes relevant constants used across other files
 
 ## Environment Setup & Program Execution
