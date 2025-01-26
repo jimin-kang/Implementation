@@ -59,7 +59,7 @@ def reconstruct_secret(shares, indices):
 
     # rounding to deal w/ floating pt. precision errors: wrapping integer lists into numpy arrays may promote integers into floats
     # polynomial coefficients are integers in {0,...,p-1}
-    poly = [poly[0]] + [round(x) for x in poly[1:]]
+    poly = [float(poly[0])] + [round(x) for x in poly[1:]]
     
     print(f"Reconstructed Secret: {poly[0]}")
     print(f"Reconstructed Polynomial: {poly}")
