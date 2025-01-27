@@ -1,7 +1,7 @@
 ## Description
 Basic implementation of Shamir's secret sharing scheme ([SSSS](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing)).
 
-Associated writeup: <add link>
+Check out the associated writeup [here](https://medium.com/@jimin.kang821/how-to-share-a-secret-shamirs-secret-sharing-9a18a109a860).
 
 This is a toy implementation that is by no means cryptographically secure, but just meant to implement the basic ideas in the associated writeup. This implementation works with numeric secrets/shares, but in practice operations would be performed directly on bitstrings.
 
